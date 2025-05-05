@@ -67,11 +67,11 @@ console.log("Male characters:", maleCharacters);
 // Sort:
 console.log("===== Sort ====")
 // Sort - mass
-let sortedByMass = characters.slice().sort((a, b) => a[3] - b[3]); 
+let sortedByMass = characters.sort((a, b) => a[3] - b[3]); 
 console.log("Sorted by mass:", sortedByMass);
 
 // Sort - height
-let sortedByHeight = characters.slice().sort((a, b) => a[1] - b[1]); 
+let sortedByHeight = characters.sort((a, b) => a[1] - b[1]); 
 console.log("Sorted by height:", sortedByHeight);
 
 
