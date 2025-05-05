@@ -90,3 +90,4 @@ console.log("Is there at least one character with blue eyes?", hasBlueEyes);
 
 let tallerThan210 = characters.some(character => character[1] > 210);
 console.log("Is there at least one character taller than 210?", tallerThan210);
+
